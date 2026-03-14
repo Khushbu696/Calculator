@@ -1,16 +1,72 @@
-# React + Vite
+# Calculator Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive Calculator Web Application built using React.
+It performs basic arithmetic operations with a clean and modern user interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Live Link
 
-## React Compiler
+https://k-calculator-app.netlify.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Calculator Preview](screenshot.jpeg)
+
+---
+
+## Features
+
+- Perform basic operations: Addition, Subtraction, Multiplication, Division
+
+- Clear (C) button to reset the calculation
+
+- Delete (←) button to remove the last input
+
+- Percentage (%) calculation
+
+- Modern and responsive UI
+
+---
+
+## Technologies Used
+
+- React
+
+- JavaScript
+
+- CSS
+
+- Vite
+
+---
+
+## Installation
+
+1. Clone the repository
+```
+git clone https://github.com/Khushbu696/Calculator.git
+```
+
+2. Navigate to the project folder
+```
+cd calculator
+```
+
+3. Install dependencies
+```
+npm install
+```
+
+4. Run the project
+```
+npm run dev
+```
+
+---
+
+## Project Purpose
+
+This project was created to practice React fundamentals, component-based structure, and state management while building a functional calculator.
